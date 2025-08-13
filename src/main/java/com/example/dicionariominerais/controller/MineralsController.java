@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
-@CrossOrigin(origins = "https://dicionariominerais.netlify.app")
+@CrossOrigin(origins = "http://localhost:5173/")
 @RestController
 @RequestMapping("/minerals")
 public class MineralsController {
